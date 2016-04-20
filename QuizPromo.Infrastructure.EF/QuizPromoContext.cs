@@ -12,6 +12,10 @@ using Microsoft.Data.Entity.Metadata;
 using Microsoft.Data.Entity.Metadata.Builders;
 using QuizPromo.Infrastructure.DDD;
 using QuizPromo.ModelCore;
+using QuizPromo.ModelCore.Answers;
+using QuizPromo.ModelCore.BoundedContext;
+using QuizPromo.ModelCore.Passing;
+using QuizPromo.ModelCore.QuestionContext;
 
 namespace QuizPromo.Infrastructure.EF
 {

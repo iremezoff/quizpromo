@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3CEBDE2-11BD-4235-8A21-B57DC977DA4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF435B01-54D7-4FB6-8DA3-21B310C6B1D1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuizPromo", "src\QuizPromo\QuizPromo.xproj", "{F508CA0F-1147-4ACC-B8D7-320AE9C560D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C7F058D4-FAAF-48BA-8F41-7EE1924E6446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4815B919-6C99-4985-8688-2E16C13976C2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuizPromo.ModelCore", "QuizPromo.ModelCore\QuizPromo.ModelCore.xproj", "{306855CB-0077-47FC-9D6E-45E736A6C69D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuizPromo.Infrastructure.DDD", "QuizPromo.Infrastructure.DDD\QuizPromo.Infrastructure.DDD.xproj", "{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuizPromo.Infrastructure.EF", "QuizPromo.Infrastructure.EF\QuizPromo.Infrastructure.EF.xproj", "{E7C1391A-3AAA-4082-966C-0BCD28D13F0F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Hal", "..\AspNet.Hal\src\AspNet.Hal\AspNet.Hal.xproj", "{C6D7F3D8-EE63-4750-9F03-FC56F83E29CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F508CA0F-1147-4ACC-B8D7-320AE9C560D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F508CA0F-1147-4ACC-B8D7-320AE9C560D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F508CA0F-1147-4ACC-B8D7-320AE9C560D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F508CA0F-1147-4ACC-B8D7-320AE9C560D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306855CB-0077-47FC-9D6E-45E736A6C69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306855CB-0077-47FC-9D6E-45E736A6C69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306855CB-0077-47FC-9D6E-45E736A6C69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306855CB-0077-47FC-9D6E-45E736A6C69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C1391A-3AAA-4082-966C-0BCD28D13F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C1391A-3AAA-4082-966C-0BCD28D13F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C1391A-3AAA-4082-966C-0BCD28D13F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C1391A-3AAA-4082-966C-0BCD28D13F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D7F3D8-EE63-4750-9F03-FC56F83E29CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D7F3D8-EE63-4750-9F03-FC56F83E29CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D7F3D8-EE63-4750-9F03-FC56F83E29CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D7F3D8-EE63-4750-9F03-FC56F83E29CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F508CA0F-1147-4ACC-B8D7-320AE9C560D9} = {B3CEBDE2-11BD-4235-8A21-B57DC977DA4F}
+		{C7F058D4-FAAF-48BA-8F41-7EE1924E6446} = {B3CEBDE2-11BD-4235-8A21-B57DC977DA4F}
+		{4815B919-6C99-4985-8688-2E16C13976C2} = {B3CEBDE2-11BD-4235-8A21-B57DC977DA4F}
+		{306855CB-0077-47FC-9D6E-45E736A6C69D} = {4815B919-6C99-4985-8688-2E16C13976C2}
+		{AE1BE5B3-5DC9-4D1E-A276-520D2C1FB0BF} = {C7F058D4-FAAF-48BA-8F41-7EE1924E6446}
+		{E7C1391A-3AAA-4082-966C-0BCD28D13F0F} = {C7F058D4-FAAF-48BA-8F41-7EE1924E6446}
+	EndGlobalSection
+EndGlobal

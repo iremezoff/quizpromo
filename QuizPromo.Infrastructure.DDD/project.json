@@ -1,0 +1,12 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "QuizPromo.Infrastructure.DDD Class Library",
+  "authors": [ "remez_000" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { }    
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+  "description": "QuizPromo.ModelCore Class Library",
+  "authors": [ "remez_000" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "QuizPromo.Infrastructure.DDD": "1.0.0-*"
+  }
+}

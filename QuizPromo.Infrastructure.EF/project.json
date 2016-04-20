@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "QuizPromo.Infrastructure.EF Class Library",
+  "authors": [ "remez_000" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "QuizPromo.Infrastructure.DDD": "1.0.0-*"
+      }
+    }
+  },
+  "commands": {
+    "ef": "EntityFramework.Commands"
+  },
+  "dependencies": {
+    "EntityFramework.Commands": "7.0.0-rc1-final",
+    "EntityFramework.Extended": "6.1.0.168",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+    "FluentValidation": "6.1.0",
+    "QuizPromo.ModelCore": "1.0.0-*"
+  }
+}
